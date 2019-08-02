@@ -1,0 +1,22 @@
+<div class="container">
+    <h2>Cars Info</h2>
+    <div class="card-deck">
+        <div class="row">
+         <div class="card" *ngFor="let car of cars">
+             <div class="card-title">
+                 <h3>{{car.Name}}</h3>
+             </div>
+             <div class="card-body">
+                 <img [src]="car.Photo" width="200" height="200">
+             </div>
+             <div class="card-footer">
+                 <div class="form-group">
+                     {{car.Likes}}<button class="btn btn-success" (click)="LikesCounter(car)">Like</button>
+                     <span></span>
+                     {{car.Dislikes}}<button class="btn btn-danger" (click)="DislikesCounter(car)">Dislike</button>
+                 </div>
+               </div>
+             </div>
+           </div>
+        </div>
+    </div>

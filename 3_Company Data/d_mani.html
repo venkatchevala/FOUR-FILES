@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee data</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="app1.css">
+</head>
+<body>
+
+<nav id="abc" class="test">
+    <a href="#">Company Employes Data</a>
+</nav>
+
+
+<section>
+    <button id="all-emp-btn">All Employees</button>
+    <button id="male-emp-btn">Male Employees</button>
+    <button id="female-emp-btn">Female Employees</button>
+
+    <form>
+        <input type="search" placeholder="Emp Name" id="search-box">
+        <div id="results">
+
+        </div>
+    </form>
+<p>the result found : <span id="count"></span></p>
+
+    <table>
+        <thead>
+        <tr>
+            <th>EMP_ID</th>
+            <th>FIRST NAME</th>
+            <th>LAST NAME</th>
+            <th>EMAIL</th>
+            <th>GENDER</th>
+            <th>IP ADDRESS</th>
+        </tr>
+        </thead>
+        <tbody id="table_body">
+        </tbody>
+    </table>
+</section>
+
+
+<script src="1d_script.js"></script>
+</body>
+</html>
