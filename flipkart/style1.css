@@ -1,0 +1,152 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Comic Sans MS", sans-serif;
+    margin: 0;
+}
+
+
+header{
+    background: linear-gradient(45deg,blue,darkblue);
+    padding: 12px;
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+
+
+nav{
+    background: linear-gradient(45deg,yellow,yellowgreen);
+    padding: 5px;
+
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 25px;
+    display: inline-block;
+}
+nav a:hover{
+    background-color: yellow;
+}
+nav a.active{
+    background-color: #aed728;
+}
+
+
+aside{
+    background: linear-gradient(60deg,yellow,darkblue,yellow);
+    float: left;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px white;
+    position: sticky;
+    top: 0;
+    height:800px;
+}
+aside a{
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 14px 25px;
+    font-size: 18px;
+}
+aside a:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+section{
+    margin-left: 250px;
+
+}
+article{
+    padding: 20px;
+}
+article h1{
+    font-size: 35px;
+    color: darkblue;
+}
+article p{
+    font-size: 20px;
+    color: gray;
+}
+article table{
+    width: 100%;
+}
+article img{
+    width: 100%;
+}
+
+figure{
+    border: 2px solid #ffa500;
+    width: 300px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+figure:hover{
+    box-shadow: 0 0 10px #ee721e;
+    cursor: pointer;
+    background-color: red;
+}
+figure:hover figcaption{
+    color: darkolivegreen;
+}
+figure img{
+    width: 290px;
+    border-radius: 10px;
+    padding: 5px;
+}
+figcaption{
+    padding: 10px;
+    color: darkred;
+}
+
+#an {
+    color:lawngreen ;
+}
+#fa1 {
+    color:lawngreen ;
+}
+#fa2 {
+    color:lawngreen ;
+}
+#fa3 {
+    color:lawngreen ;
+}
+
+div{
+    padding: 10px;
+}
+div h1{
+    font-size: 35px;
+    color: darkblue;
+}
+div p{
+    font-size: 20px;
+    color: gray;
+}
+div table{
+    width: 100%;
+}
+div img{
+    width: 100%;
+}
+
+footer{
+    margin-left: 250px;
+    background: linear-gradient(60deg,yellow,darkblue,yellow);
+    padding:12px;
+    text-align: center;
+    color: white;
+}
+footer a{
+    color: orange;
+}
+
+
+
